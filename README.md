@@ -56,10 +56,31 @@ How do sales, profit, and discount strategies influence grocery store performanc
 - Power Query
 - Excel/CSV
 
+## Key DAX Measures
+
+Profit Margin = DIVIDE([Total Profit],[Total Sales])
+
+Discount Rate = [Total Discount]/([Total Sales]+[Total Discount])
+
+Average Sales = AVERAGE('Supermart Grocery Sales'[Sales])
+
+Total Orders = DISTINCTCOUNT('Supermart Grocery Sales'[Order ID])
+
+Top Performing Cities = RANKX(ALLSELECTED('Supermart Grocery Sales'[City]),[Profit margin],,DESC)
+
 ## Files included
 - Dashboard Screenshots
 - Power BI Dashboard (.pbix)
-- Dataset (.csv/xlsx)
+- Dataset (.csv)
 - README Documentation
 
-
+## Skills Demonstrated
+- Data Cleaning
+- Data Modeling
+- DAX
+- Power Query
+- Business Intelligence
+- Dashboard Design
+- Data Visualization
+- KPI Development
+- Business Analysis
