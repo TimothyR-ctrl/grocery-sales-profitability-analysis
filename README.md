@@ -37,7 +37,7 @@ How do sales, profit, and discount strategies influence grocery store performanc
 ![Executive Recommendations](dashboard_screenshots/executive_recommendations.png)
 
 ## Key Findings
-1. West region generated the highest profit ($1.19M).
+1. West region generated the highest profit ($1.19M) contibuting 31.8% of total profit.
 2. Snacks is the top-performing category, generating the highest profit, second highest total sales and the highest profit margin (25.39%).
 3. Sales and profit consistently peak during Q4.
 4. South Region shows strong potential due to high average sales and profit margins despite lower profit value than the West, East and Central regions.
